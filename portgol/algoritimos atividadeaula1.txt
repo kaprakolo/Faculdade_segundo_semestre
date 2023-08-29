@@ -1,0 +1,38 @@
+Algoritimo area_triangulo_atividade_1
+
+VAR 
+	Real: base, altura, area;
+INICIO
+	Escreva ("informe a base: ");
+	Leia(base);
+	
+	Escreva ("informe a altura: ");
+	Leia(altura);
+	
+	area <- base*altura/2
+	
+	Escreva ( "a area do triangulo é: ", area);
+FIM
+
+Algoritimo atividade_2
+
+VAR
+	Inteiro: hora, minuto, segundo, totalsegundos;
+INICIO
+	Escreva ("informe hora: ");
+	Leia (hora);
+	
+	Escreva ("informe minuto: ");
+	Leia (minuto);
+
+	Escreva ("informe segundo: ");
+	Leia (segundo);
+	
+	totalsegundos <- segundos+(minutos*60)+(hora*3600);
+	
+	Escreva ( "o total em segundos é: ", totalsegundos);
+
+FIM
+	
+	
+Algoritimo atividade_3

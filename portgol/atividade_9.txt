@@ -1,0 +1,15 @@
+Algoritimos atividade_9
+
+VAR 
+	Real: valor_gasto, valor_10porcent, valor_a_pagar;
+
+INICIO
+	Escreva(" insira valor gasto no restaurante: ")
+	Leia(valor_gasto)
+	
+	valor_10porcent <- valor_gasto * 0.1;
+	valor_a_pagar <- valor_gasto + valor_10porcent;
+	
+	Escreva("o valor total a pagar é: ", valor_a_pagar, "o valor da gorjeta é: ", valor_10porcent);
+	
+FIM

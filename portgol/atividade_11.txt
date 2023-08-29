@@ -1,0 +1,26 @@
+Algoritimo atividade_11
+
+VAR
+	Inteiro: votos_brancos, votos_nulos, votos_validos, percent_brancos, percert_nulos, percent_validos, num_total_votos;
+	
+INICIO
+	Escreva("insira o numero de votos em branco");
+	Leia(votos_brancos);
+	
+	Escreva("insira o numero de votos nulos:");
+	Leia( votos_nulos);
+	
+	Escreva("insira o numero de votos validos: ");
+	Leia( votos_validos);
+	
+	num_total_votos <- votos_brancos + votos_nulos + votos_validos;
+	
+	percent_brancos <- votos_brancos * 100 / num_total_votos;
+	
+	percert_nulos <- votos_nulos * 100 / num_total_votos;
+	
+	percent_validos <- votos_validos * 100 / num_total_votos;
+	
+	Escreva("o numero total de votos é de: ", num_total_votos, " o percentual de votos em branco é de: ", votos_brancos, "o percentual de votos nulos é de: ", votos_nulos, " o percentual de votos válidos é de: ", votos_validos );
+	
+FIM

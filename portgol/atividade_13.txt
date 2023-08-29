@@ -1,0 +1,20 @@
+Algoritimo atividade_13
+
+VAR 
+	Real: altura_pessoa, sombra_pessoa, sombra_predio, altura_predio;
+	
+INICIO 
+	Escreva("insira a sua altura: ")
+	Leia(altura_pessoa);
+	
+	Escreva("insira o comprimento da sua sombra: ");
+	Leia(sombra_pessoa);
+	
+	Escreva(" insira o comprimento da sombra do predio: ");
+	Leia(sombra_predio);
+	
+	altura_predio <- altura_pessoa * sombra_predio / sombra_pessoa;
+	
+	Escreva(" a altura do predio é: ", altura_predio);
+	
+FIM

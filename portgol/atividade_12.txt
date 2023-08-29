@@ -1,0 +1,19 @@
+Algoritimos atividade_12
+
+VAR
+	Inteiro: numero_1, numero_2, temporario_1;
+	
+INICIO
+	Escreva("insira numero 1: ");
+	Leia(numero_1);
+	
+	Escreva("insira numero 2: ");
+	Leia(numero_2);
+	
+	temporario_1 <- numero_1;
+	numero_1 <- numero_2;
+	numero_2 <- temporario_1
+	
+	Escreva("os numeros são: ", numero_1, "e: ", numero_2);
+	
+FIM

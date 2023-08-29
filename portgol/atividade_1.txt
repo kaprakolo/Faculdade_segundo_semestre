@@ -1,0 +1,15 @@
+Algoritimo area_triangulo_atividade_1
+
+VAR 
+	Real: base, altura, area;
+INICIO
+	Escreva ("informe a base: ");
+	Leia(base);
+	
+	Escreva ("informe a altura: ");
+	Leia(altura);
+	
+	area <- base*altura/2
+	
+	Escreva ( "a area do triangulo é: ", area);
+FIM

@@ -1,0 +1,19 @@
+Algoritimo atividade_14
+
+VAR
+	Real: salario_minimo, quilowatts_gastos, valor_quilowatts, valor_pagar;
+	
+INICIO
+	Escreva(" insira o salário mínimo: ");
+	Leia( salario_minimo);
+	
+	Escreva(" insira o numero de quilowatts gastos: ");
+	Leia(quilowatts_gastos);
+	
+	valor_quilowatts <- salario_minimo * 100 / 7;
+	
+	valor_pagar <- valor_quilowatts * quilowatts_gastos;
+	
+	Escreva(" o valor por quilowatts é: ", valor_quilowatts, " o valor total a ser pago é: ", valor_pagar);
+	
+FIM

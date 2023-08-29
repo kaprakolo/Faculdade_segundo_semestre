@@ -1,0 +1,16 @@
+Algoritimos atividade_3
+
+VAR
+	Inteiro: numero, resultado_sucessor, resultado_antecessor;
+
+INICIO 
+	Escreva("insira o numero: ");
+	Leia(numero);
+	
+	resultado_sucessor <- numero + 1;
+	resultado_antecessor <- numero - 1;
+	
+	Escreva("o sucessor do numero é: ", resultado_sucessor, "o antecessor do numero é: ", resultado_antecessor);
+	
+FIM
+	

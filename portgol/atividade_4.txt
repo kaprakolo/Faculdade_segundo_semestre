@@ -1,0 +1,21 @@
+Algoritimos atividade_4
+
+VAR
+	Real: nota_1, nota_2, nota_3, media_peso;
+	
+INICIO
+
+	Escreva("insira nota 1: ");
+	Leia(nota_1);
+	
+	Escreva("insira nota 2: ");
+	Leia(nota_2);
+	
+	Escreva("insira nota 3: ");
+	Leia(nota_3);
+	
+	media_peso <- (nota_1 * 2 + nota_2 * 3 + nota_3 * 5 ) / 10;
+	
+	Escreva(" a media do aluno é: ", media_peso);
+
+FIM

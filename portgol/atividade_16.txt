@@ -1,0 +1,22 @@
+Algoritimo atividade_16
+
+VAR
+	Interiro: saque, valor100, valor50, valor20, valor10, valor5;
+
+INICIO
+	Escreva("insira valor do saque: ");
+	Leia(saque);
+	
+	valor100 <- saque / 100;
+	
+	valor50 <- (saque MOD 100) / 50;
+	
+	valor20 <- (saque MOD 50) / 20;
+	
+	valor10 <- (saque MOD 20) / 10;
+	
+	valor5 <- (saque MOD 10) / 5;
+	
+	Escreva(valor100, "em notas de 100", valor50, " em notas de 50", valor20, " em notas de 20", valor10, "em notas de 10", valor5, "em notas de 5");
+	
+FIM

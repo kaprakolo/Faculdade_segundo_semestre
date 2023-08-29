@@ -1,0 +1,15 @@
+Algoritimo atividade_5
+
+VAR
+	Real: celsius, fahrenheit;
+	
+INICIO
+	
+	Escreva("insira temperatura em celsius: ");
+	Lei(celsius);
+	
+	fahrenheit <- celsius * 1.8 + 32;
+	
+	Escreva("a temperatura em fahrenheit é: " fahrenheit);
+	
+FIM 

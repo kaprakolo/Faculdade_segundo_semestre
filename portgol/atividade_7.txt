@@ -1,0 +1,22 @@
+Algoritimo atividade_7
+
+VAR
+	Real: capacidade_tanque, quantidade_abastecido, quilometragem_percorrida, consumo_medio, autonomia;
+	
+INICIO
+	Escreva("insira capacidade do tanque do veiculo: ");
+	Leia(capacidade_tanque);
+	
+	Escreva("insira quantidade de litros abastecidos no ultimo abastecimento: ");
+	Leia(quantidade_abastecido);
+	
+	Escreva("insira quantidade de quilometros percorridos desde o ultimo abastecimento: ");
+	Leia(quilometragem_percorrida);
+	
+	consumo_medio <- quilometragem_percorrida / quantidade_abastecido;
+	
+	autonomia <- consumo_medio * capacidade_tanque - quantidade_abastecido;
+	
+	Escreva("o consumo medio do veiculo é: ", consumo_medio,"a autonomia do veiculo é: " autonomia);
+	
+FIM

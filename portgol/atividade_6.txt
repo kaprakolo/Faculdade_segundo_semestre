@@ -1,0 +1,18 @@
+Algoritimos atividade_6
+
+VAR 
+	Real: reais, dolar, cambio;
+	
+INICIO
+	Escreva(" insira o valor em reais ");
+	Leia(reais);
+	
+	ESCREVA("insira a taxa de cambio: ");
+	LEIA(cambio);
+	
+	dolar <- reais / cambio;
+	
+	Escreva(" o valor em dolar é: ", dolar);
+	
+	FIM 
+	

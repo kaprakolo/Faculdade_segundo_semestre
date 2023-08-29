@@ -1,0 +1,17 @@
+Algoritimo atividade_10
+
+VAR
+	Real: valor_vendas_mes, num_vendas_mes, salario_total;
+	
+INICIO
+	Escreva("o valor total em vendas este mes é de: ")
+	Leia(valor_vendas_mes);
+	
+	Escreva("o numero de vendas do mes foi de: ");
+	Leia(num_vendas_mes);
+	
+	salario_total <- valor_vendas_mes * 0.2 + num_vendas_mes * 5;
+	
+	Escreva(" o salario total é de: ", salario_total);
+	
+FIM

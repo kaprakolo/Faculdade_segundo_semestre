@@ -1,0 +1,19 @@
+Algoritimo atividade_2
+
+VAR
+	Inteiro: hora, minuto, segundo, totalsegundos;
+INICIO
+	Escreva ("informe hora: ");
+	Leia (hora);
+	
+	Escreva ("informe minuto: ");
+	Leia (minuto);
+
+	Escreva ("informe segundo: ");
+	Leia (segundo);
+	
+	totalsegundos <- segundos+(minutos*60)+(hora*3600);
+	
+	Escreva ( "o total em segundos é: ", totalsegundos);
+
+FIM

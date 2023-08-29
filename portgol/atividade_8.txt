@@ -1,0 +1,19 @@
+Algoritimos atividade_8
+
+VAR 
+	Real: quilometros_percorridos, quantidade_dias_alugados, valor_pagar;
+
+INICIO 
+	Escreva(" insirira dias alugados: ");
+	Leia(quantidade_dias_alugados);
+	
+	Escreva(" insira quilometros percorridos: ");
+	Leia(quilometros_percorridos);
+	
+	valor_pagar <- quantidade_dias_alugados * 70 + quilometros_percorridos * 0.15;
+	
+	Escreva(" o valor total a pagar é: ", valor_pagar);
+	
+FIM
+
+	
