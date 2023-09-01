@@ -1,0 +1,21 @@
+p {
+    color: darkgray;
+    padding: 0;
+    text-align: center;
+  }
+  h1{
+    color: darkolivegreen;
+    text-align: center;
+  }
+body{
+    background-color: black;
+}
+.meu_estilo {
+    text-align: justify;
+    color: white;
+    background-color: red;
+    margin: 0%;
+}
+.coluna{
+   display: inline-block;
+}
