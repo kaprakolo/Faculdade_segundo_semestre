@@ -19,3 +19,7 @@ body{
 .coluna{
    display: inline-block;
 }
+.amor{
+  background-color: red;
+  color: white;
+}

@@ -1,0 +1,20 @@
+body {
+    background-image: url(https://images7.alphacoders.com/117/1178865.jpg);
+    background-size: cover; 
+    background-repeat: repeat;
+    color: white;
+}
+header {
+    background-color: white;
+    color: black;
+}
+h3{
+    background-color: black;
+}
+p{
+    background-color: black;
+}
+.vermelhor {
+    background-color: white;
+    color: black;
+}
