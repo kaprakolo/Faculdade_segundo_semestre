@@ -3,6 +3,7 @@ body {
     background-size: cover; 
     background-repeat: repeat;
     color: white;
+    margin: 2%;
 }
 header {
     background-color: white;
@@ -17,4 +18,10 @@ p{
 .vermelhor {
     background-color: white;
     color: black;
+}
+.box{
+    float: left;
+}
+.pegajoso{
+    
 }
