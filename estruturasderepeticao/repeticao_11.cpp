@@ -14,8 +14,6 @@ int main() {
         	printf(" %d,", serie_3);
         	
 		}
-        
-
         printf("\nDeseja repetir o codigo? (s/n): ");
         scanf(" %c", &continuar);  // Espaco antes de %c para ignorar espacos e quebras de linha
 
