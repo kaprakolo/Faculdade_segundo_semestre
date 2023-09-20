@@ -3,7 +3,7 @@
 
 int main() {
     char continuar;
-    int serie_3 = 0, i;
+    int serie_3, i;
 
     do {
         // Coloque aqui o codigo que deseja repetir
