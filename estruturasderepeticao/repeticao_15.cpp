@@ -15,7 +15,7 @@ int main(){
 		
 		temp = atual;
 		atual = atual + anterior;
-		anterior = temp;
+		anterior = atual - anterior;
 		
 		printf(" %d", atual);
 		
