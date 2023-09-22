@@ -3,7 +3,7 @@
 #include<stdio.h>
 int main(){
 
-	int i, atual, anterior, numtermo, temp;
+	int i, atual, anterior, numtermo;
 	
 	printf("1 1");
 	
@@ -13,7 +13,6 @@ int main(){
 	
 	for(i = 3; i <= numtermo; i++){
 		
-		temp = atual;
 		atual = atual + anterior;
 		anterior = atual - anterior;
 		
