@@ -1,0 +1,80 @@
+body {
+    background-image: url(https://images7.alphacoders.com/117/1178865.jpg);
+    background-size: cover; 
+    background-repeat: repeat;
+    color: white;
+}
+header {
+    background-color: white;
+    color: black;
+}
+h1{
+    text-align: center;
+}
+h3{
+    background-color: black;
+    text-align: center;
+    border: 20px;
+    padding:20px;
+    margin: auto;
+}
+p{
+    background-color: black;
+    text-align: center;
+    
+}
+.vermelhor {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+header{
+    position: sticky;
+    top: 20px;
+}
+li {
+    display: inline-block;
+    font-size: 20px;
+    padding: 20px;
+}
+button{
+    font-size: medium;
+}
+h3::first-letter {
+    initial-letter: 2;
+    color: rgb(187, 171, 30);
+    font-weight: bold;
+    margin-right: .75em;
+}
+table{
+    text-align: center;
+    border: 20px ;
+    padding:0px;
+    margin-left:400px;
+}
+.container{
+    
+    width: 100%;
+    max-height: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    border: solid white 0px;
+}
+.container div{
+    max-width: 500px;
+    max-height: 170px;
+    background-color: rgba(0, 0, 0, 0.61);
+    border: solid 2px white;
+    margin: auto;
+    padding: 10px;
+    border-radius: 10px;
+}
+.conteudo:hover{
+    background-color: black;
+}
+main{
+    flex-wrap: wrap;
+}
+body{
+    margin: auto;
+    justify-content: center;
+}

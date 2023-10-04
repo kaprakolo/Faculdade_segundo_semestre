@@ -3,19 +3,17 @@
 
 int main() {
     char continuar;
-    int serie_3 = 0, i;
-
+    int serie_3, i;
+	serie_3 = 1;
     do {
         // Coloque aqui o codigo que deseja repetir
         
-        for(i = 1; i <= 24000; i = i * 3){
+        for(i = 1; i <= 10; i++){
         	
-        	serie_3 = i;
+        	serie_3 = serie_3 * 3;
         	printf(" %d,", serie_3);
         	
 		}
-        
-
         printf("\nDeseja repetir o codigo? (s/n): ");
         scanf(" %c", &continuar);  // Espaco antes de %c para ignorar espacos e quebras de linha
 
