@@ -5,7 +5,7 @@
 #include<stdio.h>
 int main(){
 	
-	int matriz [2][3], i, j, , num;
+	int matriz [2][3], i, j, num;
 	
 	for(i = 0; i < 2; i++){
 		for(j = 0; j < 3; j++){
@@ -16,10 +16,15 @@ int main(){
 	
 	printf("insira numero que deseja: ");
 	scanf("%d", &num);
-	
-	
-	
-	printf("\n produto é %d", produto);
+	for(i = 0; i < 2; i++){
+	for(j = 0; j < 3; j++){
+		if(num == matriz[i][j]){
+			printf("numero encontrado : %d %d", i, j);
+			return 0;
+		}
+	}
+	}
+	printf("numero nao encontrado");
 	
 	return 0; 
 }
