@@ -1,5 +1,5 @@
 //Escreva um programa que leia uma matriz M de 5 x 5 elementos e,
-// utilizando estruturas de repetição,apresente na tela a soma dos elementos da diagonal principal da matriz
+// utilizando estruturas de repetiÃ§Ã£o,apresente na tela a soma dos elementos da diagonal principal da matriz
 #include<stdio.h>
 int main(){
 	
@@ -7,9 +7,10 @@ int main(){
 
 	soma = 0;
 	
-	for(i = 0; i < 5; i++){
-		soma = soma + matriz[i][j - i];
+	for(j = 0; j < 5; j++){
+		soma = soma + matriz[2][j];
 	}
+	
 	for(i = 0; i < 5; i++){
 		for(j = 0; j < 5; j++){
 		
