@@ -1,25 +1,27 @@
-//Escreva um programa que leia uma matriz M de 5 x 5 elementos e,
-// utilizando estruturas de repetição,apresente na tela a soma dos elementos da diagonal principal da matriz
+//Escreva um programa que leia uma matriz M de 5 x 5 elementos e, utilizando estruturas de repetição,
+//apresente na tela a soma dos elementos da diagonal secundária da matriz.
 #include<stdio.h>
 int main(){
 	
-	int matriz [5][5] = {{1,2,3,4,5},{6,7,8,9,10},{6,7,8,9,10},{6,7,8,9,10},{6,7,8,9,10}}, i, j, soma;
-
-	soma = 0;
+	int matriz[5][5] = {{1,2,3,4,5},{1,2,3,4,5},{1,2,3,4,5},{1,2,3,4,5},{1,2,3,4,5}}, i, j, soma;
 	
-	for(j = 0; j < 5; j++){
-		soma = soma + matriz[2][j];
-	}
+	soma = 0;
 	
 	for(i = 0; i < 5; i++){
 		for(j = 0; j < 5; j++){
-		
-		printf(" %d ", matriz[i][j]);
+			if(i + j == 4){
+			soma = soma + matriz [i][j];
+			}
 		}
-		printf("\n");
+	}
+	for(i = 0; i < 5; i++){
+		for(j = 0; j < 5; j++){
+			printf(" %d", matriz[i][j]);
+		}
+		printf(" \n");
 	}
 	
-	printf(" soma = %d ", soma);
+	printf(" a soma da diagonal secundaria é: %d", soma);
 	
-	return 0; 
+	return 0;
 }
