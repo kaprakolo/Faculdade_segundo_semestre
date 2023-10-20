@@ -6,11 +6,10 @@ int main(){
 	
 	for(i = 0; i < 4; i++){
 		
-		menor=1000;
+		menor= matriz[i][0];
 		for(j = 0; j < 5; j++){
 			
 			if(matriz[i][j] < menor){
-			
 				menor = matriz[i][j];
 			}
 		}
@@ -27,7 +26,6 @@ int main(){
 	for(i = 0;i < 4; i++){
 	
 		printf(" %d", vetor[i]);
-			
 	}
 	printf("\n");
 	
