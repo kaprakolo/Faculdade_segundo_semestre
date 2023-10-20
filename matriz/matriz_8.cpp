@@ -1,9 +1,9 @@
-//Escreva um programa que leia uma matriz M de 5 x 5 elementos e, utilizando estruturas de repetição,
-//apresente na tela a soma dos elementos da diagonal secundária da matriz.
+//Escreva um programa que leia uma matriz M de 4 x 4 elementos e, 
+//utilizando estruturas de repetição,apresente na tela a soma dos elementos marcados com x.
 #include<stdio.h>
 int main(){
 	
-	int matriz[5][5] = {{1,2,3,4,5},{1,2,3,4,5},{1,2,3,4,5},{1,2,3,4,5},{1,2,3,4,5}}, i, j, soma;
+	int matriz[5][5] = {{1,2,3,4,6},{1,2,3,4,5},{1,2,3,4,5},{1,2,3,4,5},{1,2,3,4,5}}, i, j, soma;
 	
 	soma = 0;
 	
