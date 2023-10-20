@@ -8,9 +8,8 @@ int main(){
 	soma = 0;
 	
 	for(i = 0; i < 4; i++){
-		for(j = 0; j < 4; j++){
-			if(j + i >= 3)
-			
+		for(j = 3; j >= 3-i; j--){
+		
 			soma = soma + matriz [i][j];
 			
 		}
