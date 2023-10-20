@@ -1,21 +1,24 @@
-//Escreva um programa que leia uma matriz M de 4 x 4 elementos e, 
-//utilizando estruturas de repetição,apresente na tela a soma dos elementos marcados com x
 #include<stdio.h>
 int main(){
 	
-	int matriz[4][5] = {{5,4,2,8,7},{3,6,9,1,4},{0,3,5,2,9},{4,9,7,6,2}}, i, j, vetor[4];
+	int matriz[4][5] = {{5,4,2,8,7},{3,6,9,1,4},{0,3,5,2,9},{4,9,7,6,2}}, i, j, vetor[4], menor;
+	
 	
 	for(i = 0; i < 4; i++){
 		
-		vetor[i] = matriz[i][j];
-		
-		for(j = 0; j < 4; j++){
+		menor=1000;
+		for(j = 0; j < 5; j++){
 			
-			if(matriz[i][j] <vetor[i]){
+			if(matriz[i][j] < menor){
 			
-				vetor[i] = matriz[i][j];
+				menor = matriz[i][j];
 			}
 		}
+		
+		printf("\n menor = %d", menor);
+		
+		vetor[i] = menor;
+		
 	}
 	printf("\n");
 	
@@ -24,6 +27,7 @@ int main(){
 	for(i = 0;i < 4; i++){
 	
 		printf(" %d", vetor[i]);
+			
 	}
 	printf("\n");
 	
@@ -32,6 +36,7 @@ int main(){
 	for(i = 0; i < 4; i++){
 		
 		for(j = 0; j < 5; j++){
+			
 			printf(" %d", matriz[i][j]);
 		}
 		printf(" \n");
