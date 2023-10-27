@@ -15,17 +15,17 @@ int main(){
 		vetor[5] += matriz [i][2];
 		
 		vetor[6] += matriz [i][i];
-		vetor[7] += matriz [i][j - i];
+		vetor[7] += matriz [i][2 - i];
 		
 	}
 	
 	for(i = 0; i < 8; i++){
 		if(vetor[0] != vetor[i]){
-			printf(" nao é quadrado megico");
+			printf(" nao Ã© quadrado megico");
 			return 0;
 		}
 		else{
-			printf("é um quadrado megico");
+			printf("Ã© um quadrado megico");
 			return 0;
 		}
 	}
