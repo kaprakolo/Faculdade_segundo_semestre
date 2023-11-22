@@ -1,0 +1,44 @@
+/* 1 - Escreva um programa que alimente um vetor com 5 números. Apresente na tela o menor valor do vetor, o maior valor do vetor,
+ a soma dos valores do vetor e a média dos valores do vetor.
+
+2 - Escreva um programa que alimente uma matriz M de 3 x 3 elementos inteiros. Apresente na na tela o produto dos elmentos da diagonal secundária da matriz.
+
+3 - Escreva um programa que armazene em uma estrutura o nome, a quantidade em estoque e o preço unitário de 5 produtos de uma empresa.
+ Apresente na tela o valor total de cada produto em estoque e o valor total do estoque. */
+ 
+ #include<stdio.h>
+ 
+ int main(){
+ 	
+ 	int vetor[5], maior, menor, soma, i;
+ 	float media;
+ 	
+ 	for(i = 0; i < 5; i++){
+ 		printf("insira valor para posicao %d: ", i);
+ 		scanf("%d", &vetor[i]);
+		}
+	 
+ 	
+ 	soma = 0;
+ 	media = 0;
+ 	maior = vetor[1];
+ 	menor = vetor[1];
+ 		
+ 	for(i = 0; i < 5; i++){
+ 		
+ 		soma = soma + vetor[i];
+ 		
+ 		if(vetor[i] > maior){
+ 			maior = vetor[i];
+		}
+ 		if(vetor[i] < menor){
+ 			menor = vetor[i];
+		}
+	 }
+	
+	media = soma / 5;
+	
+	printf("o maior é: %d o menor é: %d a soma é: %d a media é: %.2f", maior, menor, soma, media);
+ 	
+ 	return 0;
+ }
